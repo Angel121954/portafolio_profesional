@@ -1,0 +1,78 @@
+const portfolioData = {
+  personal: {
+    name: "Ángel David Agudelo Cuartas",
+    role: "Full Stack Developer",
+    bio: "Desarrollador Full Stack apasionado por construir soluciones reales. Estudio ADSO en SENA y construyo Fluxa, una red social para developers.",
+    location: "Colombia 🇨🇴",
+  },
+
+  hero_slides: [
+    {
+      title: "Construyo productos que importan.",
+      subtitle: "Full Stack Developer · Laravel · React · MySQL",
+    },
+    {
+      title: "Del código al deploy.",
+      subtitle: "Arquitectura limpia, interfaces que enamoran.",
+    },
+    {
+      title: "Aprendiendo. Creando. Lanzando.",
+      subtitle: "SENA ADSO · Cartago, Colombia",
+    },
+  ],
+
+  projects: [
+    {
+      id: 1,
+      title: "Fluxa",
+      description:
+        "Red social para developers que combina LinkedIn, GitHub y feed social. Cuenta con WebSockets en tiempo real, streaming HLS con FFmpeg, generación de CV en PDF y gestión de assets con Cloudinary.",
+      image: "/img/redSocialFluxa.jpeg",
+      tags: ["Laravel 12", "Livewire", "Tailwind", "MySQL", "Docker"],
+      github: "https://github.com/Angel121954/fluxaRedSocial",
+      demo: null,
+    },
+    {
+      id: 2,
+      title: "Salva el Conocimiento",
+      description:
+        "Juego del ahorcado con temática educativa desarrollado para SENA ADSO. Interfaz interactiva con sistema de puntaje y retroalimentación al usuario.",
+      image: "/img/salvaElConocimiento.png",
+      tags: ["PHP", "JavaScript", "CSS3", "MySQL"],
+      github: "https://github.com/Angel121954/proyecto_ahorcado",
+      demo: null,
+    },
+    {
+      id: 3,
+      title: "Luisa & Ayslin Accesorios",
+      description:
+        "E-commerce para negocio de tratamientos capilares. Incluye catálogo de productos con WooCommerce, pasarela de pago Wompi y sistema de reserva de citas con Bookly.",
+      image: "/img/luisaAccesorios.png",
+      tags: ["WordPress", "WooCommerce", "Elementor", "PHP"],
+      github: null,
+      demo: null,
+    },
+  ],
+
+  skills: [
+    { name: "Laravel / PHP", icon: "🐘" },
+    { name: "JavaScript",    icon: "🟨" },
+    { name: "React",         icon: "⚛️" },
+    { name: "Tailwind CSS",  icon: "🎨" },
+    { name: "MySQL",         icon: "🗄️" },
+    { name: "Docker",        icon: "🐳" },
+    { name: "Git / GitHub",  icon: "🔀" },
+    { name: "Livewire",      icon: "⚡" },
+    { name: "Node.js",       icon: "🟢" },
+    { name: "Linux / WSL2",  icon: "🐧" },
+  ],
+
+  contact: {
+    email: "angeldavidagudelocuartas13@gmail.com",
+    github: "https://github.com/Angel121954",
+    linkedin: "https://www.linkedin.com/in/angel-david-agudelo-cuartas-547624345",
+    whatsapp: "https://wa.me/573046363941",
+  },
+}
+
+export default portfolioData
