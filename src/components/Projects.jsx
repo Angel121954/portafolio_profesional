@@ -92,7 +92,7 @@ export default function Projects({ projects }) {
 
                   {!project.github && !project.demo && (
                     <span className="text-[11px] text-slate-600 font-mono italic">
-                      Proyecto privado
+                      Proyecto en desarrollo
                     </span>
                   )}
                 </div>
